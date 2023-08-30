@@ -1,2 +1,3 @@
-print("test1gi")
-print("hi")
+import subprocess
+
+subprocess.run('dir', shell=True)
